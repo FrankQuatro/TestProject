@@ -1,28 +1,15 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "newStorageAccountNamePrefix": {
-      "value": "s9829"
-    },
-
-    "vmNamePrefix": {
-      "value": "v9829"
-    },
-
-    "domainName": {
-      "value": "contoso.com"
-    },
-
-    "dnsPrefix": {
-      "value": "v9829"
-    },
-    
     "adminUsername": {
-      "value": "Administrator"
+      "value": "admin123"
     },
     "adminPassword": {
-      "value": "!!123abcA"
+      "value": "!!admin123"
+    },
+    "dnsLabelPrefix": {
+      "value": "GENUNIQUE"
     }
   }
 }
